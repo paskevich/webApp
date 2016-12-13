@@ -6,11 +6,12 @@ function onClick(){
     c = c + 1 + 2*crs + 10*std + 100*cdr;
     document.getElementById('cnt').innerHTML = c;
     if(c>=1000000){
-        alert("NOT BAD, MAN! NOT BAD! AGAIN!");
+        /*alert("NOT BAD, MAN! NOT BAD! AGAIN!");
         document.getElementById('cnt').innerHTML = 0;
         document.getElementById('crs_num').innerHTML = 0;
         document.getElementById('std_num').innerHTML = 0;
-        document.getElementById('cdr_num').innerHTML = 0;
+        document.getElementById('cdr_num').innerHTML = 0;*/
+        window.location= "location.html";
     }
 }
 

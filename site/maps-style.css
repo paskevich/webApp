@@ -1,0 +1,14 @@
+
+
+#wrap{
+	width: 1000px;	
+	margin: 0 auto;
+    z-index: 2;
+}
+
+#mapContainer {
+	position:relative;
+    height: 500px;
+    width: 1000px;	
+    z-index: 2;
+} 
