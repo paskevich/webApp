@@ -8,7 +8,7 @@
 
 #mapContainer {
 	position:relative;
-    height: 500px;
+    height: 450px;
     width: 1000px;	
     z-index: 2;
 } 
