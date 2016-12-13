@@ -11,21 +11,23 @@
     
 </head>
 
-<body onload="init()">
+<body>
     <div class="content">
       <h1 class="content__heading">Welcome, friend</h1>
       <p class="content__teaser">Let's click on this button!</p>
       <a href=# class="content__cta" onclick="onClick()">THIS BUTTON</a>
-      <h1 class="content__count" id="cnt">999998</h1>
+      <h1 class="content__count" id="cnt">0</h1>
     </div>
     
     <div class="shop">
-          <a href=# class="shop__heading" id="crs" onclick="buyCrs()">Курсор (10 pts)</a>
+          <a href=# class="shop__heading" id="crs" onclick="buyCrs()">Coffee (10 pts)</a>
           <p class="shop__num" id="crs_num">0</p>
-          <a href=# class="shop__heading" id="std" onclick="buyStd()">Студент (100 pts)</a>
+          <a href=# class="shop__heading" id="std" onclick="buyStd()">Student (100 pts)</a>
           <p class="shop__num" id="std_num">0</p>
-          <a href=# class="shop__heading" id="cdr" onclick="buyCdr()">Программер (1000 pts)</a>
+          <a href=# class="shop__heading" id="cdr" onclick="buyCdr()">Programmer (1000 pts)</a>
           <p class="shop__num" id="cdr_num">0</p>
+          <a href=# class="shop__heading" id="clk" onclick="buyClk()">Clicker King (10000 pts)</a>
+          <p class="shop__num" id="clk_num">0</p>
     </div>
     
     <div class="content"><p id="timer" class="content__teaser">0 seconds</p></div>
