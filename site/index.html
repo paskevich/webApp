@@ -11,7 +11,7 @@
     
 </head>
 
-<body>
+<body onload="init()">
     <div class="content">
       <h1 class="content__heading">Welcome, friend</h1>
       <p class="content__teaser">Let's click on this button!</p>
@@ -27,6 +27,8 @@
           <a href=# class="shop__heading" id="cdr" onclick="buyCdr()">Программер (1000 pts)</a>
           <p class="shop__num" id="cdr_num">0</p>
     </div>
+    
+    <div class="content"><p id="timer" class="content__teaser">0 seconds</p></div>
     
 
     <video autoplay="true" class="video" loop="true">
